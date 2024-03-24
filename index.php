@@ -9,6 +9,8 @@ ip: <?= $_SERVER["REMOTE_ADDR"] ?>
 <br>
 user agent: <?= $_SERVER["HTTP_USER_AGENT"] ?>
 <br>
+<a href="https://ipapi.co/<?= $_SERVER["REMOTE_ADDR"] ?>/json">ip lookup</a>
+<br>
 <a href="list.php">view full list</a>
 <br>
 <a href="erase.php">erase the list</a>
